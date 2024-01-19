@@ -1,12 +1,13 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 import "./Image.css";
 
 const Image = () => {
     return (
-      <div className= "image">
-        
-      </div>      
+      <div className= "image">  
+      <Outlet /> 
+      </div>  
     );
    };
 

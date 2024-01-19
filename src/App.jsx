@@ -1,17 +1,25 @@
 import React from 'react';
+import {  Route ,Routes } from 'react-router-dom';
 import '../src/App.css';
-import Image  from "../src/components/Image-screen/Image.jsx";
-import Login from './components/login/login.jsx';
-import ForgotPass from "./components/ForgotPass/ForgotPass.jsx";
-
+import Login from "./components/Login/Login.jsx";
+import ForgotPass from './components/ForgotPass/ForgotPass.jsx';
+import Image from './components/Image-screen/Image.jsx';
 
 const App = () => {
   return (
+    
       <>
      <div className= "flexbox">
-        <Image />
-        <Login /> 
-        <ForgotPass />
+     
+     <Image />
+     <Routes>
+    
+     <Route path="/" element={<Login/>} />
+     <Route path="/ForgotPass" element={<ForgotPass/>} />
+    
+      </Routes>
+        
+        
     </div>
     </>
   );

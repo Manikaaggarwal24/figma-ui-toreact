@@ -5,3 +5,18 @@ flex-shrink: 0;
 background: url('../../assets/panda.png'), lightgray -94.504px 0px / 164.595% 100% no-repeat;
 
 }
+ /* Tablet Version */
+  
+ @media (max-width: 998rem) {
+    html {
+      font-size: 55%;
+    }
+  }
+  
+  /* Smartphone version */
+  
+  @media (max-width: 768rem) {
+    html {
+      font-size: 45%;
+    }
+}

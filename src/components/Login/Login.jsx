@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-
-
+import ForgotPass from "../ForgotPass/ForgotPass";
+import {NavLink} from "react-router-dom";
 
 import "./Login.css";
 
+
 const Login = () => {
-const[email ,setEmail] = useState("");
+
+  const[email ,setEmail] = useState("");
 const[password ,setPassword] = useState("");
 
 const[allEntry ,setAllEntry] = useState([]);
@@ -22,7 +24,7 @@ console.log(allEntry);
 
     return (
 
-       
+      
       <div className= "leftbox">
       <div className= "frame">
       <div className= "headingbox">
@@ -60,11 +62,12 @@ console.log(allEntry);
 </>
 </div></div>
 
-  <div className="forgotpass"> 
-  <a href to="/ForgotPass.jsx">Forgot password?</a></div>
-   
+<NavLink className="forgotpass" to="/ForgotPass">Forgot password?</NavLink>
+  
   
   <button type="submit" className='signin' >Join Panda</button>
+</div>
+  
   <div>
    
     {
@@ -87,7 +90,7 @@ console.log(allEntry);
 
 
       </div>
-      </div>
+      
 
       
         

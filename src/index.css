@@ -24,7 +24,7 @@
   }
   
   .wrapper {
-    max-width: 1024px;
+    max-width: 64rem;
     margin: 0 auto;
   }
   
@@ -41,8 +41,8 @@
   
   section h2 {
     font-weight: 800;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 3rem;
+    line-height: 3rem;
     position: relative;
   }
   
@@ -78,25 +78,18 @@
   
   /* Tablet Version */
   
-  @media (max-width: 1040px) {
-    .wrapper {
-      max-width: 694px;
+  @media (max-width: 998rem) {
+    html {
+      font-size: 55%;
     }
   }
   
   /* Smartphone version */
   
-  @media (max-width: 720px) {
-    .wrapper {
-      padding: 0 32px;
+  @media (max-width: 768rem) {
+    html {
+      font-size: 45%;
     }
   
-    section h2 {
-      font-size: 24px;
-    }
-  
-    section h2::after {
-      width: 50px;
-      bottom: 0;
-    }
+   
   }

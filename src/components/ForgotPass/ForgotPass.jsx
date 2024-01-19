@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
-
+import { NavLink } from 'react-bootstrap';
 import "./ForgotPass.css";
 
 const ForgotPass = () => {
 
 
-    return (
-
-       
+    return ( 
       <div className= "leftbox">
       <div className= "frame">
       <div className= "headingbox">
@@ -28,16 +26,18 @@ const ForgotPass = () => {
       <>
         <form action="" >
         
-       <div className="username">
-        <input type="text" placeholder="Username"
-         name="username"  />
+        <div className="username">
+        <input type="text" className="inputtype" placeholder="email "
+         name="username"/>
          </div>
 
        
 </form>
 </>
-</div></div>
-  <div className="forgotpass"><a href='#'>Forgot password?</a></div>
+</div>
+<button type="submit" className='signin' >Get the Link</button>
+</div>
+  
     
   
   <button type="submit" className='signin' >Join Panda</button>
