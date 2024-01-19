@@ -1,0 +1,7 @@
+.image {
+ width: 67%;
+height: 100vh;
+flex-shrink: 0;
+background: url('../../assets/panda.png'), lightgray -94.504px 0px / 164.595% 100% no-repeat;
+
+}

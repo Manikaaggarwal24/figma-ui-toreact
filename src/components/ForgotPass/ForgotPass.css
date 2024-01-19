@@ -1,0 +1,141 @@
+.leftbox{
+     width: 33%;
+    height: 100vh;
+    flex-shrink: 0;
+}
+ 
+.frame{
+
+height: 100vh;
+flex-shrink: 0;
+}
+
+
+.headingbox{
+    width: 234px;
+    height: 38.336px;
+    flex-shrink: 0;
+    margin: 19px 10px 10px 95px;
+    display: flex;
+background-color:beige;
+
+}
+
+.box1{
+color: #1F1F1F;
+
+font-family: 'Jost', sans-serif;
+font-size: 16px;
+font-style: normal;
+display: flex;
+text-align:center;
+font-weight: 400;
+line-height: 20px; /* 125% */
+margin: 10px 10px 10px 30px;
+}
+
+.border{
+width: 410px;
+height: 498px;
+margin: 50px 10px 10px 20px;
+flex-shrink: 0;
+border-radius: 250px 250px 0px 0px;
+border: 1px solid #5f4848;
+}
+.box3{
+width: 408px;
+height: 115px;
+flex-shrink: 0;
+}
+
+.uniconstar{
+    width: 22.5px;
+    height: 22.5px;
+    flex-shrink: 0;
+    background: url('../../assets/Union.svg');
+    margin:6px 2px 2px 130px; 
+}
+.freeaccount{
+color: #1F1F1F;
+font-family: Jost;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 40px 10px 10px 60px;
+
+}
+
+.takeless{
+    color: #1F1F1F;
+font-family: Jost;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 10px 10px 10px 60px;
+
+}
+.minutes{
+    color: #A95454;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: -36px 10px 10px 160px;
+}
+.forgotpass{
+    color: #1F1F1F;
+font-family: Jost;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+text-decoration-line: underline;
+margin: 150px 10px 10px 120px;
+
+}
+
+.signin{
+display: flex;
+width: 235px;
+padding: 18px 40px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 35px;
+border: 0.5px solid #1F1F1F;
+cursor: pointer;
+margin: 60px 10px 10px 60px;
+font-size: 16px;
+
+
+}
+
+.username{
+color: #ACB5BD;
+font-family: Jost;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 18.2px */
+margin: 50px 10px 10px 35px;
+
+
+
+
+}
+
+.password{
+color: #E0B51D;
+font-family: Jost;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 10px 10px 10px 35px;
+width: 160px;
+height: 18.604px;
+flex-shrink: 0;
+}
